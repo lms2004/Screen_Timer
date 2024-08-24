@@ -1,8 +1,4 @@
-from tkinter import Tk, font, ttk, StringVar, Menu, Toplevel, Spinbox, Button
-import pygame
-import configparser
-import os
-import sys
+from tkinter import Tk
 
 from model.configreader import ConfigReader
 from view.DisplayView import DisplayView
