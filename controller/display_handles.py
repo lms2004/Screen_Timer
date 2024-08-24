@@ -28,7 +28,7 @@ class WidgetFactory:
             textvariable=textvariable,
             bg=self.background_color,
             fg=self.foreground_color,
-            width=3,
+            width=20,
             font=self.font,
             justify="center",
             relief="flat",
@@ -47,7 +47,7 @@ class WidgetFactory:
             bg=self.background_color,
             fg=self.foreground_color,
             relief="flat",
-            width=10,
+            width=20,
             padx=5,
             pady=5
         )

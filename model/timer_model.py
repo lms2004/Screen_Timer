@@ -40,8 +40,9 @@ class Timer:
         self.root.destroy()
 
     def reset(self):            
-        self.iMin = int(self.config.read("TIMER", "minutes"))
-        self.iSec = int(self.config.read("TIMER", "seconds"))
+        self.wMin = self.iMin
+        self.wSec = self.iSec
+        self.display_view.update_display(f"{self.iMin:02}:{self.iSec:02}")
         if not self.working:
             self.working = True
             

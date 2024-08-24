@@ -27,5 +27,8 @@ MainView = DisplayView(root, config, timer)
 # 将DisplayView实例赋值给Timer实例中的display_view属性
 timer.display_view = MainView
 
+# 顶层框大小
+root.geometry("300x100")
+
 # 进入主循环
 root.mainloop()
